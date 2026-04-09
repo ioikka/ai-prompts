@@ -46,3 +46,8 @@ Full test suite (JUnit 5 + Mockito, Testcontainers, Jest, etc.).
 ## Formatting Constraints
 - No introductory filler, pleasantries, or restating the prompt. Lead instantly with signal.
 - Never use placeholder comments like `// TODO` or `...`.
+
+## CRITICAL FORMATTING RULE
+DO NOT use XML tags (<reasoning>, <implementation>, etc.) under any circumstances.
+Use ONLY Markdown headers (##, ###) for all sections.
+XML tags will break the output renderer. This is a hard constraint.
